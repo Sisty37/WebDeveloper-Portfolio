@@ -1,23 +1,25 @@
-/* shared styles */
-body{
+/* Common shared styles */
+body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
- 
+
 
 /* nav releted style  */
- 
-.nav-title{
+
+.nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
- 
+
 }
 
-.text-primary{
-     color: #FD6E0A;
+.text-primary {
+    color: #FD6E0A;
+
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     color: white;
@@ -25,72 +27,114 @@ body{
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
- 
+
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
 }
- 
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
 }
-nav a{
+
+nav a {
     color: #474747;
     text-decoration: none;
     margin-right: 50px;
+    font-size: 20px;
+    font-weight: 400;
+
 }
- 
+
 .header {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 670px 435px; /* Set the fixed size */
-    
+    background-size: 670px 435px;
+    /* Set the fixed size */
+
 }
 
 
-.banner{
+.banner {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
-.banner-content{
+
+.banner-content {
     max-width: 585px;
 }
-.banner .profile-pic{
+
+.banner .profile-pic {
     width: 500px;
 
 }
-.banner-greeting{
-    color:   #474747;
+
+.banner-greeting {
+    color: #474747;
     font-size: 45px;
     font-weight: 600;
     margin: 0px;
- 
+
 }
-.banner-title{
+
+.banner-title {
     color: #181818;
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
- 
+
 }
-.banner-description{
+
+.banner-description {
     color: #757575;
-   
+
     font-size: 18px;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px;
+    /* 166.667% */
     margin-bottom: 30px;
+}
+
+/*Main section css  */
+
+
+/* About section */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+   
+   
+
 }
